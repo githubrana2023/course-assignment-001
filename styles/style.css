@@ -56,8 +56,6 @@
 
 /* !------------------------   header section style------------------  end  ------------------------*/
 
-
-
 /* !------------------------   failure section style------------------   start   ------------------------*/
 
 .container {
@@ -74,29 +72,222 @@
   height: 523px;
 }
 
-.container h1{
+.container h1 {
   width: 288px;
   color: #151414;
   font-weight: 700;
   font-size: 40px;
 }
 
-.container p{
+.container p {
   width: 416px;
   color: #444343;
   margin: 30px 0;
 }
 
-.container ul li{
+.container ul li {
   list-style: none;
   margin-top: 10px;
 }
-.container ul li i{
+.container ul li i {
   color: rgb(102, 183, 102);
 }
 
 /* !------------------------  failure section style  ------------------   end   ------------------------*/
 
+/* !------------------------  my-plan section style  ------------------   start   ------------------------*/
+
+.my-plan-container {
+  width: 100%;
+  height: 100vh;
+  padding: 50px 8% 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.my-plan-container h1 {
+  font-weight: 700;
+  font-size: 40px;
+  color: #151414;
+  margin-bottom: 50px;
+}
+
+.language-habit-website {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 10px;
+  width: 100%;
+}
+
+.language-habit-website div h4 {
+  font-weight: 700;
+  font-size: 26px;
+  color: #151414;
+  margin: 24px 0 16px;
+}
+
+.language-habit-website div p {
+  color: #737272;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.language-habit-website div img {
+  width: 60px;
+}
+
+.call-now-container {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin-top: 100px;
+
+  background-image: linear-gradient(
+      90deg,#E980FC,#E980FC00),
+    url(../happy-new-year-2023/img/watch.png);
+
+  background-position: center;
+  background-size: cover;
+  text-align: left;
+  padding: 0 50px;
+}
+
+.call-now-container h2 {
+  width: 460px;
+  font-weight: 700;
+  font-size: 40px;
+  color: #fff;
+  margin-bottom: 25px;
+}
+
+.call-now-container button {
+  padding: 18px 30px;
+  background: #fff;
+  color: #005fac;
+  font-weight: 600;
+  font-size: 20px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.call-now-container button:hover{
+  background: #005fac;
+  color: #fff;
+  border: 2px solid #005fac;
+}
 
 
-/* !------------------------  failure section style  ------------------   start   ------------------------*/
+p {
+  color: #005fac00 100%;
+  color: rgba(0, 95, 172, 0) 100%;
+}
+
+/* !------------------------  my-plan section style  ------------------   end   ------------------------*/
+
+
+
+
+
+/* !------------------------  footer section style  ------------------   start   ------------------------*/
+
+.footer-container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 8%;
+  background: #151414;;
+  width: 100%;
+  height: 100vh;
+  color: #fff;
+}
+
+.footer-container .left-content{
+  width: 480px;
+}
+
+.footer-container .left-content h2{
+  margin-bottom: 16px;
+  color: #F8F8F8;
+  font-weight: 700;
+font-size: 45px;
+}
+
+.footer-container .left-content p{
+  margin-bottom: 24px;
+}
+
+.social-icon{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.social-icon li{
+  list-style: none;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.social-icon li:hover{
+transform: scale(1.1)
+}
+
+.subscribe-container{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.subscribe-container h4{
+  font-weight: 600;
+font-size: 25px;
+color: #fff;
+margin-bottom: 10px;
+}
+
+.subscribe-container input{
+  color: #fff;
+  width: 300px;
+  height: 50px;
+  border: 2px solid #fff;
+  border-radius: 5px;
+  background: transparent;
+  padding: 0 20px;
+  font-size: 18px;
+outline: none;
+}
+
+.subscribe-container input::placeholder{
+  color: #fff;
+}
+
+.subscribe-btn{
+  padding: 16px 36px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #005FAC;
+  border: 2px solid #fff;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.subscribe-btn:hover{
+  background: transparent;
+  border: 2px solid #fff;
+  color: #fff;
+}
+
+
+
+
+/* !------------------------  footer section style  ------------------   end   ------------------------*/
