@@ -139,7 +139,7 @@
   width: 60px;
 }
 
-.call-now-container {
+.watch-container {
   width: 100%;
   height: 250px;
   display: flex;
@@ -158,7 +158,7 @@
   padding: 0 50px;
 }
 
-.call-now-container h2 {
+.watch-container h2 {
   width: 460px;
   font-weight: 700;
   font-size: 40px;
@@ -166,7 +166,7 @@
   margin-bottom: 25px;
 }
 
-.call-now-container button {
+.watch-container button {
   padding: 18px 30px;
   background: #fff;
   color: #005fac;
@@ -178,17 +178,12 @@
   cursor: pointer;
 }
 
-.call-now-container button:hover{
+.watch-container button:hover{
   background: #005fac;
   color: #fff;
   border: 2px solid #005fac;
 }
 
-
-p {
-  color: #005fac00 100%;
-  color: rgba(0, 95, 172, 0) 100%;
-}
 
 /* !------------------------  my-plan section style  ------------------   end   ------------------------*/
 
