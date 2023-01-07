@@ -289,7 +289,7 @@ font-size: 45px;
   margin-bottom: 24px;
 }
 
-.social-icon{
+.social-icon ul{
   display: flex;
   align-items: center;
   gap: 20px;
